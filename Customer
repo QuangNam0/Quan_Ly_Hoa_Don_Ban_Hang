@@ -1,0 +1,32 @@
+public class Customer {
+    private String code;
+    private String name;
+    private String address;
+
+    public Customer(String code, String name, String address) {
+        this.code = code;
+        this.name = name;
+        this.address = address;
+    }
+
+    // Getters and setters
+    public String getCode() { 
+        return code; 
+    }
+    public String getName() { 
+        return name; 
+    }
+    public String getAddress() { 
+        return address; 
+    }
+
+    public void setCode(String code) { 
+        this.code = code; 
+    }
+    public void setName(String name) { 
+        this.name = name; 
+    }
+    public void setAddress(String address) { 
+        this.address = address; 
+    }
+}
